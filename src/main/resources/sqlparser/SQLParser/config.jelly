@@ -1,0 +1,55 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <!--
+    This jelly script is used for per-project configuration.
+
+    See global.jelly for a general discussion about jelly script.
+  -->
+  <f:entry>
+  
+    <table width="100%">
+      <col width="20%"/>
+      <col width="20%"/>
+      <col width="20%"/>
+      <col width="20%"/>
+      <col width="20%"/>
+      <tr>
+        <td>HTML directory to archive</td>
+        <td>Index page[s]</td>
+        <td>Report title</td>
+        <td>Keep past HTML reports</td>
+        <td>Allow missing report</td>
+        <td/>
+      </tr>
+    </table>
+    
+      <table width="100%">
+	      <col width="20%"/>
+	      <col width="20%"/>
+	      <col width="20%"/>
+	      <col width="20%"/>
+	      <col width="20%"/>
+	      <tr>
+	        <td>
+	          <f:textbox field="reportDir" default="reportTarget"/>
+	        </td>
+	      
+	        <td>
+	          <f:textbox field="reportFile"  default="${descriptor.getReportTarget().getReportFile()}"/>
+	        </td>
+	        
+	        <td>
+	          <f:textbox field="reportName" default="reportName"/>
+	        </td>
+	        
+	        <td>
+	          <f:checkbox field="keepAll" default="${keepAll}"/>
+	        </td>
+	
+	        <td>
+	          <f:checkbox field="allowMissing" />
+	        </td>
+	      </tr>
+      </table>
+    
+  </f:entry >
+</j:jelly >

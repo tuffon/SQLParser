@@ -1,0 +1,1467 @@
+Jun 06, 2014 12:16:13 PM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/common/classes], exists: [false], isDirectory: [false], canRead: [false]
+Jun 06, 2014 12:16:13 PM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/shared/classes], exists: [false], isDirectory: [false], canRead: [false]
+Jun 06, 2014 12:16:13 PM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/shared/lib], exists: [false], isDirectory: [false], canRead: [false]
+Jun 06, 2014 12:16:13 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jun 06, 2014 12:16:13 PM org.apache.catalina.startup.SetAllPropertiesRule begin
+WARNING: [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'emptySessionPath' to 'true' did not find a matching property.
+Jun 06, 2014 12:16:14 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-45957"]
+Jun 06, 2014 12:16:14 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-53548"]
+Jun 06, 2014 12:16:14 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1303 ms
+Jun 06, 2014 12:16:14 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jun 06, 2014 12:16:14 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.39
+Jun 06, 2014 12:16:14 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales.war
+Jun 06, 2014 12:16:17 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/lib/el-api-2.2.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/el/Expression.class
+[GC 132096K->19628K(503296K), 0.0432080 secs]
+[GC 151724K->22571K(503296K), 0.0476030 secs]
+[GC 154667K->26213K(503296K), 0.0288290 secs]
+[GC 158309K->33421K(635392K), 0.0472660 secs]
+[GC 297613K->46238K(635392K), 0.0804640 secs]
+[GC 310430K->77172K(811520K), 0.0856470 secs]
+[GC 502132K->127698K(824320K), 0.1293330 secs]
+[GC 552658K->173344K(731136K), 0.1141820 secs]
+[GC 505120K->205243K(752640K), 0.0551420 secs]
+[GC 537019K->212216K(774656K), 0.0720830 secs]
+Jun 06, 2014 12:16:32 PM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Jun 06, 2014 12:16:32 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Jun 06, 2014 12:16:32 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization started
+Jun 06, 2014 12:16:32 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing Root WebApplicationContext: startup date [Fri Jun 06 12:16:32 PDT 2014]; root of context hierarchy
+Jun 06, 2014 12:16:32 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/config/web-application-config.xml]
+Jun 06, 2014 12:16:33 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/config/jawr.xml]
+Jun 06, 2014 12:16:33 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/config/webmvc-config.xml]
+Jun 06, 2014 12:16:34 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/config/webflow-config.xml]
+Jun 06, 2014 12:16:34 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/config/applicationContext-security.xml]
+Jun 06, 2014 12:16:34 PM org.springframework.security.core.SpringSecurityCoreVersion <clinit>
+INFO: You are running with Spring Security Core 3.1.4.RELEASE
+Jun 06, 2014 12:16:34 PM org.springframework.security.config.SecurityNamespaceHandler <init>
+INFO: Spring Security 'config' module version is 3.1.4.RELEASE
+Jun 06, 2014 12:16:34 PM org.springframework.security.config.http.FilterInvocationSecurityMetadataSourceParser parseInterceptUrlsForFilterInvocationRequestMap
+INFO: Creating access control expression attribute 'permitAll' for /
+Jun 06, 2014 12:16:34 PM org.springframework.security.config.http.FilterInvocationSecurityMetadataSourceParser parseInterceptUrlsForFilterInvocationRequestMap
+INFO: Creating access control expression attribute 'isAuthenticated()' for /**
+Jun 06, 2014 12:16:34 PM org.springframework.security.config.http.HttpSecurityBeanDefinitionParser checkFilterChainOrder
+INFO: Checking sorted filter chain: [Root bean: class [org.springframework.security.web.context.SecurityContextPersistenceFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 200, Root bean: class [org.springframework.security.web.authentication.logout.LogoutFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 400, <org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0>, order = 800, Root bean: class [org.springframework.security.web.savedrequest.RequestCacheAwareFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1300, Root bean: class [org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1400, Root bean: class [org.springframework.security.web.authentication.AnonymousAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1700, Root bean: class [org.springframework.security.web.session.SessionManagementFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1800, Root bean: class [org.springframework.security.web.access.ExceptionTranslationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1900, <org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0>, order = 2000]
+Jun 06, 2014 12:16:34 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext-entity.xml]
+Jun 06, 2014 12:16:34 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext-service.xml]
+Jun 06, 2014 12:16:35 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext-integration.xml]
+Jun 06, 2014 12:16:35 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext-integration-dunslink.xml]
+[GC 536312K->185047K(773120K), 0.0464330 secs]
+Jun 06, 2014 12:16:35 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'dunsLinkConnectionManager': replacing [Generic bean: class [com.dbcc.ecomm.integration.dunslink.connection.DunsLinkConnectionManager]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/lib/ecomm-integration-1.0.jar!/com/dbcc/ecomm/integration/dunslink/connection/DunsLinkConnectionManager.class]] with [Generic bean: class [com.dbcc.ecomm.integration.dunslink.connection.DunsLinkConnectionManager]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext-integration-dunslink.xml]]
+Jun 06, 2014 12:16:35 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'dunsLinkCanadaConnectionManager': replacing [Generic bean: class [com.dbcc.ecomm.integration.dunslink.connection.DunsLinkCanadaConnectionManager]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/lib/ecomm-integration-1.0.jar!/com/dbcc/ecomm/integration/dunslink/connection/DunsLinkCanadaConnectionManager.class]] with [Generic bean: class [com.dbcc.ecomm.integration.dunslink.connection.DunsLinkCanadaConnectionManager]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext-integration-dunslink.xml]]
+Jun 06, 2014 12:16:35 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext-dao.xml]
+Jun 06, 2014 12:16:36 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext-core.xml]
+Jun 06, 2014 12:16:36 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [appconfig.xml]
+Jun 06, 2014 12:16:36 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'config': replacing [Generic bean: class [com.dbcc.ecomm.core.common.util.PropertyPlaceholderExposer]; scope=singleton; abstract=false; lazyInit=false; autowireMode=1; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/lib/ecomm-core-1.0.jar!/com/dbcc/ecomm/core/common/util/PropertyPlaceholderExposer.class]] with [Generic bean: class [com.dbcc.ecomm.core.common.util.PropertyPlaceholderExposer]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [appconfig.xml]]
+Jun 06, 2014 12:16:36 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'registerForAuditDAO': replacing [Generic bean: class [com.dbcc.ecomm.dao.impl.RegisterForAuditDAOImpl]; scope=singleton; abstract=false; lazyInit=false; autowireMode=1; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/lib/ecomm-dao-1.0.jar!/com/dbcc/ecomm/dao/impl/RegisterForAuditDAOImpl.class]] with [Generic bean: class [com.dbcc.ecomm.dao.impl.RegisterForAuditDAOImpl]; scope=; abstract=false; lazyInit=false; autowireMode=1; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=init; destroyMethodName=null; defined in class path resource [applicationContext-dao.xml]]
+Jun 06, 2014 12:16:36 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [lookUpProperties.xml]
+Jun 06, 2014 12:16:36 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'companyServiceHelper': replacing [Generic bean: class [com.dbcc.ecomm.service.helper.CompanyServiceHelper]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/lib/ecomm-services-1.0.jar!/com/dbcc/ecomm/service/helper/CompanyServiceHelper.class]] with [Generic bean: class [com.dbcc.ecomm.service.helper.CompanyServiceHelper]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext-service.xml]]
+Jun 06, 2014 12:16:36 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'fabricationDataExtractor': replacing [Generic bean: class [com.dbcc.ecomm.service.fabrication.response.FabricationDataExtractor]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/lib/ecomm-services-1.0.jar!/com/dbcc/ecomm/service/fabrication/response/FabricationDataExtractor.class]] with [Generic bean: class [com.dbcc.ecomm.service.fabrication.response.FabricationDataExtractor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext-service.xml]]
+Jun 06, 2014 12:16:36 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'impersonateServiceHelper': replacing [Generic bean: class [com.dbcc.ecomm.service.helper.ImpersonateServiceHelper]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/lib/ecomm-services-1.0.jar!/com/dbcc/ecomm/service/helper/ImpersonateServiceHelper.class]] with [Generic bean: class [com.dbcc.ecomm.service.helper.ImpersonateServiceHelper]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext-service.xml]]
+Jun 06, 2014 12:16:36 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'applicationProperties': replacing [Generic bean: class [com.dbcc.ecomm.core.common.util.PropertiesUtil]; scope=singleton; abstract=false; lazyInit=false; autowireMode=1; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/lib/ecomm-core-1.0.jar!/com/dbcc/ecomm/core/common/util/PropertiesUtil.class]] with [Generic bean: class [com.dbcc.ecomm.core.common.util.PropertiesUtil]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext-service.xml]]
+Jun 06, 2014 12:16:36 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext-eventServiceOutbound.xml]
+Jun 06, 2014 12:16:36 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [jms-channel-basic-context.xml]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext-integration-jms.xml]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'eventPublisher': replacing [Generic bean: class [com.dbcc.ecomm.integration.messaging.jms.publisher.EventPublisher]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/lib/ecomm-integration-1.0.jar!/com/dbcc/ecomm/integration/messaging/jms/publisher/EventPublisher.class]] with [Generic bean: class [com.dbcc.ecomm.integration.messaging.jms.publisher.EventPublisher]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext-eventServiceOutbound.xml]]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext-eventServiceInbound.xml]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [jms-channel-basic-context.xml]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext-integration-jms.xml]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'connectionFactory': replacing [Generic bean: class [com.dbcc.ecomm.integration.messaging.jms.DandbHornetQConnectionFactory]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext-integration-jms.xml]] with [Generic bean: class [com.dbcc.ecomm.integration.messaging.jms.DandbHornetQConnectionFactory]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext-integration-jms.xml]]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'directChannel': replacing [Generic bean: class [org.springframework.integration.channel.DirectChannel]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext-integration-jms.xml]] with [Generic bean: class [org.springframework.integration.channel.DirectChannel]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext-integration-jms.xml]]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'jmsTransactionManager': replacing [Generic bean: class [org.springframework.jms.connection.JmsTransactionManager]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [jms-channel-basic-context.xml]] with [Generic bean: class [org.springframework.jms.connection.JmsTransactionManager]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [jms-channel-basic-context.xml]]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'eventChannel': replacing [Generic bean: class [org.springframework.integration.channel.DirectChannel]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.integration.channel.DirectChannel]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'email': replacing [Generic bean: class [org.springframework.integration.channel.DirectChannel]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.integration.channel.DirectChannel]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'alert': replacing [Generic bean: class [org.springframework.integration.channel.DirectChannel]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.integration.channel.DirectChannel]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'audit': replacing [Generic bean: class [org.springframework.integration.channel.DirectChannel]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.integration.channel.DirectChannel]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'duns': replacing [Generic bean: class [org.springframework.integration.channel.DirectChannel]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.integration.channel.DirectChannel]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'xmlLogging': replacing [Generic bean: class [org.springframework.integration.channel.DirectChannel]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.integration.channel.DirectChannel]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext-owlQueue.xml]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [jms-channel-basic-context.xml]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext-integration-jms.xml]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'connectionFactory': replacing [Generic bean: class [com.dbcc.ecomm.integration.messaging.jms.DandbHornetQConnectionFactory]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext-integration-jms.xml]] with [Generic bean: class [com.dbcc.ecomm.integration.messaging.jms.DandbHornetQConnectionFactory]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext-integration-jms.xml]]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'directChannel': replacing [Generic bean: class [org.springframework.integration.channel.DirectChannel]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext-integration-jms.xml]] with [Generic bean: class [org.springframework.integration.channel.DirectChannel]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext-integration-jms.xml]]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'jmsTransactionManager': replacing [Generic bean: class [org.springframework.jms.connection.JmsTransactionManager]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [jms-channel-basic-context.xml]] with [Generic bean: class [org.springframework.jms.connection.JmsTransactionManager]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [jms-channel-basic-context.xml]]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'eventChannel': replacing [Generic bean: class [org.springframework.integration.channel.DirectChannel]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.integration.channel.DirectChannel]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'email': replacing [Generic bean: class [org.springframework.integration.channel.DirectChannel]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.integration.channel.DirectChannel]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'alert': replacing [Generic bean: class [org.springframework.integration.channel.DirectChannel]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.integration.channel.DirectChannel]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'audit': replacing [Generic bean: class [org.springframework.integration.channel.DirectChannel]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.integration.channel.DirectChannel]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'duns': replacing [Generic bean: class [org.springframework.integration.channel.DirectChannel]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.integration.channel.DirectChannel]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'xmlLogging': replacing [Generic bean: class [org.springframework.integration.channel.DirectChannel]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.integration.channel.DirectChannel]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'emailAdapterOut': replacing [Generic bean: class [org.springframework.integration.config.ConsumerEndpointFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.integration.config.ConsumerEndpointFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'alertAdapterOut': replacing [Generic bean: class [org.springframework.integration.config.ConsumerEndpointFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.integration.config.ConsumerEndpointFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'auditAdapterOut': replacing [Generic bean: class [org.springframework.integration.config.ConsumerEndpointFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.integration.config.ConsumerEndpointFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'dunsAdapterOut': replacing [Generic bean: class [org.springframework.integration.config.ConsumerEndpointFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.integration.config.ConsumerEndpointFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'xmlLoggingAdapterOut': replacing [Generic bean: class [org.springframework.integration.config.ConsumerEndpointFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.integration.config.ConsumerEndpointFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [leads-fulfillment.xml]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [leads-jdbc-message-store.xml]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'orderDetailsAction': replacing [Generic bean: class [com.dbcc.ecomm.web.action.OrderDetailsAction]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/classes/com/dbcc/ecomm/web/action/OrderDetailsAction.class]] with [Generic bean: class [com.dbcc.ecomm.web.action.OrderDetailsAction]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in ServletContext resource [/WEB-INF/config/web-application-config.xml]]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'productDetailAction': replacing [Generic bean: class [com.dbcc.ecomm.web.action.ProductDetailAction]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/classes/com/dbcc/ecomm/web/action/ProductDetailAction.class]] with [Generic bean: class [com.dbcc.ecomm.web.action.ProductDetailAction]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in ServletContext resource [/WEB-INF/config/web-application-config.xml]]
+Jun 06, 2014 12:16:37 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'five9Action': replacing [Generic bean: class [com.dbcc.ecomm.web.action.Five9Action]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/classes/com/dbcc/ecomm/web/action/Five9Action.class]] with [Generic bean: class [com.dbcc.ecomm.web.action.Five9Action]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in ServletContext resource [/WEB-INF/config/web-application-config.xml]]
+[GC 509143K->193889K(772096K), 0.0459510 secs]
+Jun 06, 2014 12:16:40 PM org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+INFO: Loading properties file from URL [jar:file:/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/lib/ecomm-core-1.0.jar!/version.properties]
+Jun 06, 2014 12:16:40 PM org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+INFO: Loading properties file from URL [jar:file:/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/lib/ecomm-services-1.0.jar!/config/leads.properties]
+Jun 06, 2014 12:16:40 PM org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+INFO: Loading properties file from URL [jar:file:/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/lib/ecomm-services-1.0.jar!/config/AwsCredentials.properties]
+Jun 06, 2014 12:16:40 PM org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+INFO: Loading properties file from URL [jar:file:/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/lib/ecomm-services-1.0.jar!/config/AsyncProductFulfillment.properties]
+Jun 06, 2014 12:16:40 PM org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+INFO: Loading properties file from URL [jar:file:/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/lib/ecomm-services-1.0.jar!/config/verified.properties]
+Jun 06, 2014 12:16:40 PM org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+INFO: Loading properties file from URL [jar:file:/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/lib/ecomm-integration-1.0.jar!/config/jms.properties]
+Jun 06, 2014 12:16:40 PM org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+INFO: Loading properties file from URL [jar:file:/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/lib/ecomm-core-1.0.jar!/config/dandb.properties]
+Jun 06, 2014 12:16:40 PM org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+INFO: Loading properties file from URL [jar:file:/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/lib/ecomm-core-1.0.jar!/config/cybersource.properties]
+Jun 06, 2014 12:16:40 PM org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+INFO: Loading properties file from URL [jar:file:/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/lib/ecomm-core-1.0.jar!/config/dandb-config.properties]
+Jun 06, 2014 12:16:40 PM org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+INFO: Loading properties file from URL [jar:file:/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/lib/ecomm-core-1.0.jar!/config/links.properties]
+Jun 06, 2014 12:16:40 PM org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+INFO: Loading properties file from URL [jar:file:/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/lib/ecomm-core-1.0.jar!/config/db.properties]
+Jun 06, 2014 12:16:40 PM org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+INFO: Loading properties file from URL [jar:file:/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/lib/ecomm-core-1.0.jar!/config/batch.properties]
+Jun 06, 2014 12:16:40 PM org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+INFO: Loading properties file from URL [jar:file:/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/lib/ecomm-core-1.0.jar!/config/dunslink.properties]
+Jun 06, 2014 12:16:40 PM org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+INFO: Loading properties file from URL [jar:file:/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/lib/ecomm-core-1.0.jar!/config/companyws.properties]
+Jun 06, 2014 12:16:40 PM org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+INFO: Loading properties file from URL [jar:file:/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/lib/async-product-fulfillment-1.0.jar!/config/leads.properties]
+Jun 06, 2014 12:16:40 PM org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+INFO: Loading properties file from URL [jar:file:/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/lib/async-product-fulfillment-1.0.jar!/config/default.properties]
+Jun 06, 2014 12:16:40 PM org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+INFO: Loading properties file from file [/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/classes/config/audit.properties]
+Jun 06, 2014 12:16:40 PM org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+INFO: Loading properties file from file [/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/classes/config/web-internal.properties]
+Jun 06, 2014 12:16:40 PM org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+INFO: Loading properties file from URL [jar:file:/media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/webapps/telesales/WEB-INF/lib/ecomm-core-1.0.jar!/config/reg/reg.properties]
+Jun 06, 2014 12:16:40 PM org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+INFO: Loading properties file from file [/etc/dandb/secure.properties]
+Jun 06, 2014 12:16:40 PM org.springframework.integration.config.xml.DefaultConfiguringBeanFactoryPostProcessor registerErrorChannel
+INFO: No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+Jun 06, 2014 12:16:40 PM org.springframework.integration.config.xml.DefaultConfiguringBeanFactoryPostProcessor registerTaskScheduler
+INFO: No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+Jun 06, 2014 12:16:41 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'adminUserBean' of type [class org.springframework.aop.scope.ScopedProxyFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:41 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'userBean' of type [class org.springframework.aop.scope.ScopedProxyFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:41 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'searchBean' of type [class org.springframework.aop.scope.ScopedProxyFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:41 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'sessionCart' of type [class org.springframework.aop.scope.ScopedProxyFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:42 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'addPromotionBean' of type [class org.springframework.aop.scope.ScopedProxyFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:42 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'scratchPadBean' of type [class org.springframework.aop.scope.ScopedProxyFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:42 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'telesalesNavigationTreeData' of type [class org.springframework.aop.scope.ScopedProxyFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:42 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'userLoginInfo' of type [class org.springframework.aop.scope.ScopedProxyFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:42 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'sessionCsrData' of type [class org.springframework.aop.scope.ScopedProxyFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:42 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'sessionCountry' of type [class org.springframework.aop.scope.ScopedProxyFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:42 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'notifychannel_wsp_LookUp' of type [class org.springframework.integration.channel.DirectChannel] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:42 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'confirmation_wsp_LookUp' of type [class org.springframework.integration.channel.DirectChannel] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[GC 519521K->196553K(772608K), 0.0460180 secs]
+Jun 06, 2014 12:16:42 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'errorChannel' of type [class org.springframework.integration.channel.PublishSubscribeChannel] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:42 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean '(inner bean)' of type [class org.springframework.integration.channel.MessagePublishingErrorHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:42 PM org.springframework.scheduling.concurrent.ExecutorConfigurationSupport initialize
+INFO: Initializing ExecutorService  'taskScheduler'
+Jun 06, 2014 12:16:42 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'taskScheduler' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:42 PM org.springframework.integration.endpoint.AbstractEndpoint start
+INFO: started wsp_LookUpGateway
+Jun 06, 2014 12:16:42 PM org.springframework.integration.endpoint.AbstractEndpoint start
+INFO: started wsp_LookUpGateway
+Jun 06, 2014 12:16:42 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'wsp_LookUpGateway' of type [class org.springframework.integration.gateway.GatewayProxyFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:42 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'conciergeDAO' of type [class org.springframework.aop.scope.ScopedProxyFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:42 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'customerEntitlementDAOImpl' of type [class org.springframework.aop.scope.ScopedProxyFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:42 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'websalesSessionDataHandler' of type [class org.springframework.aop.scope.ScopedProxyFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:42 PM org.springframework.cache.ehcache.EhCacheManagerFactoryBean afterPropertiesSet
+INFO: Initializing EhCache CacheManager
+Jun 06, 2014 12:16:42 PM net.sf.ehcache.Cache <clinit>
+SEVERE: Unable to set localhost. This prevents creation of a GUID. Cause was: ip-10-26-40-165: ip-10-26-40-165: Name or service not known
+java.net.UnknownHostException: ip-10-26-40-165: ip-10-26-40-165: Name or service not known
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1473)
+	at net.sf.ehcache.Cache.<clinit>(Cache.java:173)
+	at net.sf.ehcache.config.ConfigurationHelper.createCache(ConfigurationHelper.java:303)
+	at net.sf.ehcache.config.ConfigurationHelper.createDefaultCache(ConfigurationHelper.java:218)
+	at net.sf.ehcache.CacheManager.configure(CacheManager.java:552)
+	at net.sf.ehcache.CacheManager.init(CacheManager.java:324)
+	at net.sf.ehcache.CacheManager.<init>(CacheManager.java:270)
+	at org.springframework.cache.ehcache.EhCacheManagerFactoryBean.afterPropertiesSet(EhCacheManagerFactoryBean.java:139)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1479)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:323)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:107)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveManagedList(BeanDefinitionValueResolver.java:353)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:154)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1387)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1368)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:720)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:523)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:357)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:327)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:895)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:853)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:768)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:486)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:285)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:323)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:107)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1387)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:285)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:285)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:198)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:439)
+	at org.springframework.beans.factory.BeanFactoryUtils.beansOfTypeIncludingAncestors(BeanFactoryUtils.java:277)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.detectPersistenceExceptionTranslators(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.<init>(PersistenceExceptionTranslationInterceptor.java:79)
+	at org.springframework.dao.annotation.PersistenceExceptionTranslationAdvisor.<init>(PersistenceExceptionTranslationAdvisor.java:71)
+	at org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor.setBeanFactory(PersistenceExceptionTranslationPostProcessor.java:85)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeAwareMethods(AbstractAutowireCapableBeanFactory.java:1502)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1470)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:198)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:741)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:464)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:389)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:294)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4887)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5381)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:977)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1655)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.net.UnknownHostException: ip-10-26-40-165: Name or service not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$1.lookupAllHostAddr(InetAddress.java:901)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1293)
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1469)
+	... 91 more
+
+Jun 06, 2014 12:16:42 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'cacheManager' of type [class org.springframework.cache.ehcache.EhCacheManagerFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:42 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'cacheManager' of type [class net.sf.ehcache.CacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:42 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'mbeanServer' of type [class org.springframework.jmx.support.MBeanServerFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:42 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'mbeanServer' of type [class com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:42 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'ehCacheMBeanRegistration' of type [class org.springframework.beans.factory.config.MethodInvokingFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:42 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'eventChannel' of type [class org.springframework.integration.channel.DirectChannel] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:42 PM org.springframework.integration.endpoint.AbstractEndpoint start
+INFO: started eventServiceGateway
+Jun 06, 2014 12:16:42 PM org.springframework.integration.endpoint.AbstractEndpoint start
+INFO: started eventServiceGateway
+Jun 06, 2014 12:16:42 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'eventServiceGateway' of type [class org.springframework.integration.gateway.GatewayProxyFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:42 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'orderConfirmBean' of type [class org.springframework.aop.scope.ScopedProxyFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:42 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'config' of type [class com.dbcc.ecomm.core.common.util.PropertyPlaceholderExposer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:42 PM com.dbcc.ecomm.core.common.util.DandbSmartDataSource createDataSource
+INFO: Created DataSource: {username=app_build, driverClassName=net.sourceforge.jtds.jdbc.Driver, url=jdbc:jtds:sqlserver://10.26.34.10:1433;DatabaseName=DBCC_ECOMM_LEADS;sendStringParametersAsUnicode=false}
+Jun 06, 2014 12:16:42 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'leadsDataSource' of type [class com.dbcc.ecomm.core.common.util.DandbSmartDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:42 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'leadsMessageStore' of type [class org.springframework.integration.jdbc.JdbcMessageStore] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:42 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean '(inner bean)#1' of type [class org.springframework.integration.store.MessageGroupQueue] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:42 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'retrieveLeads' of type [class org.springframework.integration.channel.QueueChannel] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:42 PM org.springframework.integration.endpoint.AbstractEndpoint start
+INFO: started leadsFulfillmentGateway
+Jun 06, 2014 12:16:42 PM org.springframework.integration.endpoint.AbstractEndpoint start
+INFO: started leadsFulfillmentGateway
+Jun 06, 2014 12:16:42 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'leadsFulfillmentGateway' of type [class org.springframework.integration.gateway.GatewayProxyFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:42 PM com.dbcc.ecomm.core.common.util.DandbSmartDataSource createDataSource
+INFO: Created DataSource: {username=app_build, driverClassName=net.sourceforge.jtds.jdbc.Driver, url=jdbc:jtds:sqlserver://10.26.34.10:1433;DatabaseName=DBCC_ECOMM_STAGING;sendStringParametersAsUnicode=false}
+Jun 06, 2014 12:16:43 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'auditDataSource' of type [class com.dbcc.ecomm.core.common.util.DandbSmartDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:43 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'liquibaseStaging' of type [class com.dbcc.ecomm.core.common.util.DandbLiquibase] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:43 PM com.dbcc.ecomm.core.common.util.DandbSmartDataSource createDataSource
+INFO: Created DataSource: {username=app_build, driverClassName=net.sourceforge.jtds.jdbc.Driver, url=jdbc:jtds:sqlserver://10.26.34.10:1433;DatabaseName=DBCC_ECOMM;sendStringParametersAsUnicode=false}
+Jun 06, 2014 12:16:43 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'dataSource' of type [class com.dbcc.ecomm.core.common.util.DandbSmartDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:43 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'liquibaseEcomm' of type [class com.dbcc.ecomm.core.common.util.DandbLiquibase] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:43 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'com.dbcc.ecomm.core.common.util.HibernateExtendedJpaVendorAdapter#5baab53a' of type [class com.dbcc.ecomm.core.common.util.HibernateExtendedJpaVendorAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:43 PM org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean createNativeEntityManagerFactory
+INFO: Building JPA container EntityManagerFactory for persistence unit 'DANDB-PersistenceUnit'
+Jun 06, 2014 12:16:43 PM org.hibernate.annotations.common.Version <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+Jun 06, 2014 12:16:43 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.2.8.Final}
+Jun 06, 2014 12:16:43 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Jun 06, 2014 12:16:43 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Jun 06, 2014 12:16:43 PM org.hibernate.ejb.Ejb3Configuration configure
+INFO: HHH000204: Processing PersistenceUnitInfo [
+	name: DANDB-PersistenceUnit
+	...]
+Jun 06, 2014 12:16:44 PM org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator instantiateExplicitConnectionProvider
+INFO: HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+Jun 06, 2014 12:16:44 PM org.jdbcdslog.ConnectionLogger info
+INFO: connect to URL jdbc:jtds:sqlserver://10.26.34.10:1433;DatabaseName=DBCC_ECOMM;sendStringParametersAsUnicode=false for user app_build
+Jun 06, 2014 12:16:44 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.SQLServer2008Dialect
+Jun 06, 2014 12:16:44 PM org.hibernate.engine.jdbc.internal.LobCreatorBuilder useContextualLobCreation
+INFO: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+Jun 06, 2014 12:16:46 PM org.hibernate.mapping.RootClass checkCompositeIdentifier
+WARN: HHH000038: Composite-id class does not override equals(): com.dbcc.ecomm.core.entity.ProductDetails
+Jun 06, 2014 12:16:46 PM org.hibernate.mapping.RootClass checkCompositeIdentifier
+WARN: HHH000039: Composite-id class does not override hashCode(): com.dbcc.ecomm.core.entity.ProductDetails
+Jun 06, 2014 12:16:46 PM org.hibernate.mapping.RootClass checkCompositeIdentifier
+WARN: HHH000038: Composite-id class does not override equals(): com.dbcc.ecomm.core.entity.CustomerPeerScore
+Jun 06, 2014 12:16:46 PM org.hibernate.mapping.RootClass checkCompositeIdentifier
+WARN: HHH000039: Composite-id class does not override hashCode(): com.dbcc.ecomm.core.entity.CustomerPeerScore
+Jun 06, 2014 12:16:46 PM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+Jun 06, 2014 12:16:46 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+Jun 06, 2014 12:16:46 PM org.hibernate.validator.internal.util.Version <clinit>
+INFO: HV000001: Hibernate Validator 4.3.1.Final
+[GC 522185K->231485K(773120K), 0.0673350 secs]
+Jun 06, 2014 12:16:48 PM org.hibernate.tuple.PojoInstantiator <init>
+INFO: HHH000182: No default (no-argument) constructor for class: com.dbcc.ecomm.core.entity.CyberSourceTransactionAudit (class must be instantiated by Interceptor)
+[GC 563261K->209992K(774144K), 0.0392300 secs]
+Jun 06, 2014 12:16:51 PM org.hibernate.hql.internal.ast.HqlSqlWalker generatePositionalParameter
+WARN: [DEPRECATION] Encountered positional parameter near line 1, column 78.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+Jun 06, 2014 12:16:51 PM org.hibernate.hql.internal.ast.HqlSqlWalker generatePositionalParameter
+WARN: [DEPRECATION] Encountered positional parameter near line 1, column 106.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+Jun 06, 2014 12:16:52 PM org.hibernate.hql.internal.ast.HqlSqlWalker generatePositionalParameter
+WARN: [DEPRECATION] Encountered positional parameter near line 1, column 85.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+Jun 06, 2014 12:16:52 PM org.hibernate.hql.internal.ast.HqlSqlWalker generatePositionalParameter
+WARN: [DEPRECATION] Encountered positional parameter near line 1, column 108.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+Jun 06, 2014 12:16:52 PM org.hibernate.hql.internal.ast.HqlSqlWalker generatePositionalParameter
+WARN: [DEPRECATION] Encountered positional parameter near line 1, column 86.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+Jun 06, 2014 12:16:52 PM org.hibernate.hql.internal.ast.HqlSqlWalker generatePositionalParameter
+WARN: [DEPRECATION] Encountered positional parameter near line 1, column 109.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+Jun 06, 2014 12:16:52 PM org.hibernate.hql.internal.ast.HqlSqlWalker generatePositionalParameter
+WARN: [DEPRECATION] Encountered positional parameter near line 1, column 141.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+Jun 06, 2014 12:16:52 PM org.hibernate.hql.internal.ast.HqlSqlWalker generatePositionalParameter
+WARN: [DEPRECATION] Encountered positional parameter near line 1, column 79.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+Jun 06, 2014 12:16:52 PM org.hibernate.hql.internal.ast.HqlSqlWalker generatePositionalParameter
+WARN: [DEPRECATION] Encountered positional parameter near line 1, column 107.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+Jun 06, 2014 12:16:52 PM org.hibernate.hql.internal.ast.HqlSqlWalker generatePositionalParameter
+WARN: [DEPRECATION] Encountered positional parameter near line 1, column 139.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+[GC 541768K->238813K(773632K), 0.0656250 secs]
+Jun 06, 2014 12:16:53 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'entityManagerFactory' of type [class org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:53 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter#246021da' of type [class org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:53 PM org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean createNativeEntityManagerFactory
+INFO: Building JPA container EntityManagerFactory for persistence unit 'DBCC-PersistenceUnit-Staging'
+Jun 06, 2014 12:16:53 PM org.hibernate.ejb.Ejb3Configuration configure
+INFO: HHH000204: Processing PersistenceUnitInfo [
+	name: DBCC-PersistenceUnit-Staging
+	...]
+Jun 06, 2014 12:16:53 PM org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator instantiateExplicitConnectionProvider
+INFO: HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+Jun 06, 2014 12:16:53 PM org.jdbcdslog.ConnectionLogger info
+INFO: connect to URL jdbc:jtds:sqlserver://10.26.34.10:1433;DatabaseName=DBCC_ECOMM_STAGING;sendStringParametersAsUnicode=false for user app_build
+Jun 06, 2014 12:16:53 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.SQLServer2008Dialect
+Jun 06, 2014 12:16:53 PM org.hibernate.engine.jdbc.internal.LobCreatorBuilder useContextualLobCreation
+INFO: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+Jun 06, 2014 12:16:54 PM org.hibernate.mapping.RootClass checkCompositeIdentifier
+WARN: HHH000038: Composite-id class does not override equals(): com.dbcc.ecomm.core.entity.ProductDetails
+Jun 06, 2014 12:16:54 PM org.hibernate.mapping.RootClass checkCompositeIdentifier
+WARN: HHH000039: Composite-id class does not override hashCode(): com.dbcc.ecomm.core.entity.ProductDetails
+Jun 06, 2014 12:16:54 PM org.hibernate.mapping.RootClass checkCompositeIdentifier
+WARN: HHH000038: Composite-id class does not override equals(): com.dbcc.ecomm.core.entity.CustomerPeerScore
+Jun 06, 2014 12:16:54 PM org.hibernate.mapping.RootClass checkCompositeIdentifier
+WARN: HHH000039: Composite-id class does not override hashCode(): com.dbcc.ecomm.core.entity.CustomerPeerScore
+Jun 06, 2014 12:16:54 PM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+Jun 06, 2014 12:16:54 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+Jun 06, 2014 12:16:54 PM org.hibernate.tuple.PojoInstantiator <init>
+INFO: HHH000182: No default (no-argument) constructor for class: com.dbcc.ecomm.core.entity.CyberSourceTransactionAudit (class must be instantiated by Interceptor)
+[GC 578269K->283224K(777728K), 0.1058870 secs]
+Jun 06, 2014 12:16:56 PM org.hibernate.hql.internal.ast.HqlSqlWalker generatePositionalParameter
+WARN: [DEPRECATION] Encountered positional parameter near line 1, column 78.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+Jun 06, 2014 12:16:56 PM org.hibernate.hql.internal.ast.HqlSqlWalker generatePositionalParameter
+WARN: [DEPRECATION] Encountered positional parameter near line 1, column 106.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+Jun 06, 2014 12:16:57 PM org.hibernate.hql.internal.ast.HqlSqlWalker generatePositionalParameter
+WARN: [DEPRECATION] Encountered positional parameter near line 1, column 85.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+Jun 06, 2014 12:16:57 PM org.hibernate.hql.internal.ast.HqlSqlWalker generatePositionalParameter
+WARN: [DEPRECATION] Encountered positional parameter near line 1, column 108.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+Jun 06, 2014 12:16:57 PM org.hibernate.hql.internal.ast.HqlSqlWalker generatePositionalParameter
+WARN: [DEPRECATION] Encountered positional parameter near line 1, column 86.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+Jun 06, 2014 12:16:57 PM org.hibernate.hql.internal.ast.HqlSqlWalker generatePositionalParameter
+WARN: [DEPRECATION] Encountered positional parameter near line 1, column 109.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+Jun 06, 2014 12:16:57 PM org.hibernate.hql.internal.ast.HqlSqlWalker generatePositionalParameter
+WARN: [DEPRECATION] Encountered positional parameter near line 1, column 141.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+Jun 06, 2014 12:16:57 PM org.hibernate.hql.internal.ast.HqlSqlWalker generatePositionalParameter
+WARN: [DEPRECATION] Encountered positional parameter near line 1, column 79.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+Jun 06, 2014 12:16:57 PM org.hibernate.hql.internal.ast.HqlSqlWalker generatePositionalParameter
+WARN: [DEPRECATION] Encountered positional parameter near line 1, column 107.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+Jun 06, 2014 12:16:57 PM org.hibernate.hql.internal.ast.HqlSqlWalker generatePositionalParameter
+WARN: [DEPRECATION] Encountered positional parameter near line 1, column 139.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+Jun 06, 2014 12:16:58 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'entityManagerFactory-Staging' of type [class org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:58 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'liquibaseLeads' of type [class com.dbcc.ecomm.core.common.util.DandbLiquibase] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:58 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'com.dbcc.ecomm.core.common.util.HibernateExtendedJpaVendorAdapter#234e81de' of type [class com.dbcc.ecomm.core.common.util.HibernateExtendedJpaVendorAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:58 PM org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean createNativeEntityManagerFactory
+INFO: Building JPA container EntityManagerFactory for persistence unit 'DANDB-PersistenceUnit-Leads'
+Jun 06, 2014 12:16:58 PM org.hibernate.ejb.Ejb3Configuration configure
+INFO: HHH000204: Processing PersistenceUnitInfo [
+	name: DANDB-PersistenceUnit-Leads
+	...]
+Jun 06, 2014 12:16:58 PM org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator instantiateExplicitConnectionProvider
+INFO: HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+Jun 06, 2014 12:16:58 PM org.jdbcdslog.ConnectionLogger info
+INFO: connect to URL jdbc:jtds:sqlserver://10.26.34.10:1433;DatabaseName=DBCC_ECOMM_LEADS;sendStringParametersAsUnicode=false for user app_build
+Jun 06, 2014 12:16:58 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.SQLServer2008Dialect
+Jun 06, 2014 12:16:58 PM org.hibernate.engine.jdbc.internal.LobCreatorBuilder useContextualLobCreation
+INFO: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+Jun 06, 2014 12:16:58 PM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+Jun 06, 2014 12:16:58 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+[GC 622680K->306799K(778240K), 0.0952210 secs]
+Jun 06, 2014 12:16:58 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'entityManagerFactory-Leads' of type [class org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:59 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'com.googlecode.ehcache.annotations.key.CachingReflectionHelper' of type [class com.googlecode.ehcache.annotations.key.CachingReflectionHelper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:59 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'com.googlecode.ehcache.annotations.key.HashCodeCacheKeyGenerator.DEFAULT_BEAN_NAME' of type [class com.googlecode.ehcache.annotations.key.HashCodeCacheKeyGenerator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:59 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'com.googlecode.ehcache.annotations.impl.CacheAttributeSourceImpl#0' of type [class com.googlecode.ehcache.annotations.impl.CacheAttributeSourceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:59 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'com.googlecode.ehcache.annotations.impl.CacheStaticMethodMatcherPointcut#0' of type [class com.googlecode.ehcache.annotations.impl.CacheStaticMethodMatcherPointcut] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:59 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'com.googlecode.ehcache.annotations.config.internalEhCacheCachingAdvisor' of type [class org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:59 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:59 PM org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Jun 06, 2014 12:16:59 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@662c6d96: defining beans [scopedTarget.adminUserBean,adminUserBean,scopedTarget.userBean,userBean,scopedTarget.searchBean,searchBean,scopedTarget.sessionCart,sessionCart,scopedTarget.addPromotionBean,addPromotionBean,scopedTarget.scratchPadBean,scratchPadBean,cartUtil,passwordValidator,newRelicTimer,scopedTarget.telesalesNavigationTreeData,telesalesNavigationTreeData,loginMainBeanHandler,dbccTreeHandler,applicationContextHanlder,fiveNineDataGateway,fiveNineDataHelper,fiveNineDataClient,cybersourceReportingHealth,keepAliveAction,orderSubmittedEventHandler,cybersourceInterceptor,phxVersionController,leadsFulfillmentDownload,campaignSearchAction,conciergeAction,upgradeProductCatalogAction,productCatalogAction,five9Action,myCallAction,refreshAction,comprehensiveSellAction,creditWorthinessAction,companySummaryAction,orderConfirmAction,compensationSummaryAction,cancelSaveAction,five9PreviewPageAction,scratchPadAction,historyAndOperationsAction,pendingInvoiceAction,accountAction,specialEventsAction,userAction,customerLookupAction,leadsAction,mySalesAction,linkagesAction,changePasswordAction,purchaseAddOnProductCatalogAction,customerSummaryAction,adminUserAction,searchAction,billingAction,addProductAction,HOP,bankingAction,publicFilingsAction,customerServiceAction,submitOrderAction,registrationAction,orderDetailsAction,addPromotionAction,productDetailAction,crmNoteAction,fulfillOfflineAction,adminProductsAction,paymentHistoryAction,systemCodesAction,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.validation.beanvalidation.LocalValidatorFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,jawrBase,jawrJsController,jawrCSSController,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,handlerMapping,flowController,faceletsViewResolver,com.dbcc.ecomm.web.util.CustomExceptionResolver#0,flowExecutor,flowRegistry,org.springframework.faces.model.converter.FacesConversionService#0,org.springframework.webflow.expression.spel.WebFlowSpringELExpressionParser#0,org.springframework.faces.webflow.JsfViewFactoryCreator#0,facesFlowBuilderServices,securityFlowExecutionListener,facesContextListener,org.springframework.security.filterChains,org.springframework.security.filterChainProxy,org.springframework.security.web.DefaultSecurityFilterChain#0,org.springframework.security.web.DefaultSecurityFilterChain#1,org.springframework.security.web.DefaultSecurityFilterChain#2,org.springframework.security.web.DefaultSecurityFilterChain#3,org.springframework.security.web.DefaultSecurityFilterChain#4,org.springframework.security.web.DefaultSecurityFilterChain#5,org.springframework.security.web.DefaultSecurityFilterChain#6,org.springframework.security.web.DefaultSecurityFilterChain#7,org.springframework.security.web.DefaultSecurityFilterChain#8,org.springframework.security.web.PortMapperImpl#0,org.springframework.security.web.PortResolverImpl#0,org.springframework.security.config.authentication.AuthenticationManagerFactoryBean#0,org.springframework.security.authentication.ProviderManager#0,org.springframework.security.web.context.HttpSessionSecurityContextRepository#0,org.springframework.security.web.authentication.session.SessionFixationProtectionStrategy#0,org.springframework.security.web.savedrequest.HttpSessionRequestCache#0,org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0,org.springframework.security.access.vote.AffirmativeBased#0,org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0,org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator#0,org.springframework.security.authentication.AnonymousAuthenticationProvider#0,org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0,org.springframework.security.userDetailsServiceFactory,org.springframework.security.web.DefaultSecurityFilterChain#9,org.springframework.security.authentication.dao.DaoAuthenticationProvider#0,org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0,org.springframework.security.authenticationManager,sessionManagementFilter,loginAuthenticationSuccessHandler,loginAuthenticationFailureHandler,passwordEncoder,logoutSuccessHandler,sas,sessionRegistry,httpSessionSecurityContextRepository,treeSessionListener,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,dataSource,auditDataSource,leadsDataSource,liquibaseStaging,liquibaseEcomm,liquibaseLeads,entityManagerFactory,entityManagerFactory-Staging,entityManagerFactory-Leads,queryTimeOut,transactionManager,transactionManager-Staging,transactionManager-Leads,org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0,org.springframework.jmx.export.MBeanExporter#0,fabricationDataExtractor,genericPacketPopulator,FabEngineInitialiser,leadsService,trackingConfirmation,cmsService,businessRuleEngine,emailAlertExpertFactory,httpRequester,preSignedUrlService,uploadFile,serviceUtil,autoRenewUtil,cupdateDownloadUtil,emailService,requestPopulator,responseParser,phxVersionService,telesaleTreeAspect,cancelSaveActionAudit,tradeReferenceChangeAudit,acctSettingPaymentUpdateAudit,five9PreviewAudit,dunsRegistrationAspect,updateOrdersAspect,logInAspect,changeAlertProfileAspect,searchAspect,changeCompensationStatusAudit,five9MyCallsAudit,accountSettingsAspect,renewalCancellationAudit,cancelOrderAspect,printAudit,userAspect,changePaymentAudit,changeDunsAudit,peerAspect,tosAcceptAudit,salesOrderAspect,addPaymentAudit,tradeRefAspect,httpService,scopedTarget.userLoginInfo,userLoginInfo,authTokenFilter,verifiedGateway,clientData,scopedTarget.sessionCsrData,sessionCsrData,tradeReferenceService,registerForDunsServiceImpl,securityService,paymentTypeRuleService,orderService,usageDataServiceImpl,inquiryDetailService,subscriptionServiceImpl,customerLookupService,purchaseDataService,ftlService,salesTaxService,customerCsrRelationshipService,businessDirectoryService,billingService,submitOrderService,companyUpdateDunsLinkPopulateService,fulfillOfflineServiceImpl,addCheckRefundService,shoppingCartServiceImpl,cancelSaveService,internalUserArchiveService,productPromotionServiceImpl,five9PreviewPageService,actionCenterService,autoRenewServiceImpl,autoRenewalErrorHandlerService,companyUpdateSubmitCompanyReportService,alertServiceImpl,productRelationshipServiceImpl,productFulfilmentServiceImpl,searchForSICCodeServiceImpl,productCatalogServiceImpl,customerService,reverseServiceCreditServiceImpl,five9CallRecordingService,internalUserAuditService,salesServiceImpl,accountSettingsService,companyUpdateUtilServiceImpl,creditSignalService,purchaseAddOnService,canadaDunsLinkServiceImpl,cartService,genericPacketPopulatorServiceImpl,adminService,userCompanyDetailsService,validCodeValueService,auditService,companyUpdateErrorHandlerServiceImpl,registerForXmlLoggingServiceImpl,companyUpdatePublicFilingsService,creditMemoServiceImpl,webSecurityService,BusinessRegistrationService,productDataService,accountHomeService,ABEAlertServiceImpl,registerForAlertServiceImpl,commonService,companyUpdateTransactionHistoryService,fabricationServiceImpl,taxServiceImpl,agenInvoiceService,userService,salesOrderService,mysalesServiceImpl,locationServiceImpl,reconciliationService,companyUpdateDisputePaymentsService,companyUpdateResponseStatusUpdateService,partnerServiceImpl,dunsRegistrationService,peerService,productPriceServiceImpl,changePasswordService,COOReportService,feedbackHelperService,webSecurityServiceJSON,cookieService,orderConfirmService,financialServiceImpl,productEntitlementService,financialTransactionService,dunsServiceImpl,intlReportService,conciergeService,businessRuleService,registerForAuditServiceImpl,five9MyCallService,cyberSourceTransactionAuditService,companyService,companyUpdateFinancialStatementService,advanstarStagingService,advertisementService,productCategoryServiceImpl,paymentService,upgradeService,userRolePromotionService,companyUpdateSetCompanyForUserServiceImpl,transactionStatus,noteService,fulfillmentServiceImpl,productService,companyUpdatePopulateCompanyReportService,customerMergeService,productGroupServiceImpl,snapshotService,entitlementService,customerEventAlertService,companyUpdateModifyCompanyReportService,agentPromotionServiceImpl,campaignService,compensationSummaryService,benchMarkingService,applicationUserService,purchaseAddOnDataService,responsysBatchEmailService,responsysEmailQueuePublisher,countryStateLanguageRepository,scopedTarget.sessionCountry,sessionCountry,countryStateLanguageService,abeEmailService,cyberSourceWrapperGateway,cyberSourceRefundGatewayStub,cyberSourceReportGateway,processCyberSourceReportWrapper,emailServiceActivator,dunsServiceActivator,xmlLoggingServiceActivator,alertServiceActivator,auditServiceActivator,productFulfillmentService,owlTokenAuthServiceStub,owlForVerifiedStub,javaMailerService,companyServiceHelper,impersonateServiceHelper,errorLoggingBean,responsysGateway,verifyUserServiceWSClient,eventPublisher,hornetQEmbedder,eventTypeRouter,dunsLinkCanadaConnectionManager,dunsLinkConnectionFactory,dunsLinkConnectionManager,dunsLinkCanadaConnectionFactory,fulfillmentDispatcher,loggingHandler,messageFactory,wsp_LookUpmarshaller,channelInitializer,$autoCreateChannelCandidates,org.springframework.integration.internalDefaultConfiguringBeanFactoryPostProcessor,wsp_LookUpGateway,outgoingRequest_wsp_LookUp,confirmation_wsp_LookUp,notifychannel_wsp_LookUp,org.springframework.integration.ws.MarshallingWebServiceOutboundGateway#0,wsp_LookUpws,companySearchResultVO,companySearchResponse,eventVO,userVO,mailVO,dunsLinkManager,dunsLoginFactory,dunsLoginPool,dunsCanadaLoginFactory,dunsCanadaLoginPool,productFulfillmentDAO,financialTransactionExtensionDAO,peerDAOImpl,registerForAlertDAOImpl,five9MyCallServiceDAOImpl,cookieDAO,tradeReferenceDAOImpl,advertisementDAOImpl,abeAlertServiceDAO,customerRemovePaymentDAOImpl,customerPaymentPreferenceDAOImpl,registerForAuditDAO,productGroupDAOImpl,userRolePromotionDAOImpl,searchForSICCodesDAOImpl,financialTransactionPaymentDaoImpl,companyUpdateSetUserCompanyDAOImpl,companyUpdateTransactionHistoryDAOImpl,alertPreferenceDAOImpl,upgradeDAOImpl,accountSettingsDAOImpl,taxDAOImpl,mappingDAOImpl,entitlementEventDAOImpl,productPromotionDAOImpl,financialServiceDaoImpl,partnerOptoutRepository,compensationAdjustmentDAOImpl,countryCodeDAOImpl,genericPacketPopulatorDAOImpl,shoppingCartDAOImpl,five9CallRecordingDAOImpl,companyDAOImpl,internalUserAuditDAOImpl,companyUpdatePublicFilingsDAOImpl,campaignDAOImpl,PaymentTypeRuleDAO,reverseServiceCreditDAOImpl,companyUpdateFinancialStatementDAOImpl,companyUpdateErrorHandlerDAOImpl,businessDirectoryDAOImpl,userCompanyDetailsDAOImpl,locationDAOImpl,userVerificationDetailsDAOImpl,customerLookupDAO,fulfillOfflineDaoImpl,snapshotDAOImpl,agentInvoiceDAOImpl,creditMemoDAOImpl,productCategoryDAOImpl,agentPromotionDAOImpl,companyUpdateHistoryAndCorporateFamilyDAOImpl,applicationUserDAOImpl,usageDataDaoImpl,mySalesDAOImpl,purchaseDataDAOImpl,inquiryDetailDAOImpl,creditSignalDAOImpl,autoRenewDaoImpl,noteTypeDAOImpl,productDataDAOImpl,productReportDefinitionDAOImpl,companyUpdateTransactionStatusDAOImpl,customerCsrRelationshipDaoImpl,cancelSaveDAOImpl,productFulfilmentDAOImpl,alertDAOImpl,productPriceDAOImpl,salesDAOImpl,companyUpdateBusinessSummarySubmitDAOImpl,noteDAOImpl,productRelationshipDAOImpl,salesOrderDAOImpl,customerDAOImpl,productCatalogDAOImpl,autoRenewalErrorHandlerDAOImpl,accountHomeDAOImpl,commonDAOImpl,feedBackServiceDAOImpl,businessRegistrationDAO,actionCenterDAOImpl,internalUserArchiveDAOImpl,scopedTarget.conciergeDAO,conciergeDAO,five9PreviewPageDAOImpl,purchaseAddOnDataDAOImpl,validCodeValueDAOImpl,alertDataDaoImpl,productsDAOImpl,COOReportDAO,userDaoImpl,productEntitlementDAOImpl,partnerDAOImpl,adminDAOImpl,RegisterForDunsDAO,subscriptionDAOImpl,companyUpdateUtilDAOImpl,scopedTarget.customerEntitlementDAOImpl,customerEntitlementDAOImpl,advanstarStagingDAOImpl,customerAlertDAOImpl,financialTransactionDAO,customerMergeDAOImpl,companyUpdateOperationDAOImpl,companyUpdatePaymentDisputeDAOImpl,salesOrderCancellationDAOImpl,leadsDAO,cyberSourceTransactionAuditDAO,phoenixMemoryMonitor,rulesUtil,commonUtil,dbccConfigCompat,config,commonUtilImpl,encryptionUtil,applicationProperties,scopedTarget.websalesSessionDataHandler,websalesSessionDataHandler,DbccContextManager,propertyPlaceholderConfigurer,oldconfig,cacheManager,com.googlecode.ehcache.annotations.key.CachingReflectionHelper,com.googlecode.ehcache.annotations.key.ListCacheKeyGenerator.DEFAULT_BEAN_NAME,com.googlecode.ehcache.annotations.key.HashCodeCacheKeyGenerator.DEFAULT_BEAN_NAME,com.googlecode.ehcache.annotations.key.MessageDigestCacheKeyGenerator.DEFAULT_BEAN_NAME,com.googlecode.ehcache.annotations.key.ReflectionHashCodeCacheKeyGenerator.DEFAULT_BEAN_NAME,com.googlecode.ehcache.annotations.key.StringCacheKeyGenerator.DEFAULT_BEAN_NAME,com.googlecode.ehcache.annotations.impl.CacheAttributeSourceImpl#0,com.googlecode.ehcache.annotations.impl.CacheStaticMethodMatcherPointcut#0,com.googlecode.ehcache.annotations.interceptor.EhCacheInterceptor#0,com.googlecode.ehcache.annotations.config.internalEhCacheCachingAdvisor,com.googlecode.ehcache.annotations.config.internalEhCacheEvictionTask,genericPacketCacheKeyGenerator,auditMessageSource,dbccAuditMessage,messageSource,dbccEmailTemplate,dbccThreadPoolExecutor,ehCacheMBeanRegistration,mbeanServer,mbeanExporter,genericDAO,industrygroupNames,conservativeLimit,dandBRatingFields,aggressiveLimit,ccsPercentileValues,javaMailSender,cyberSourceHelper,messageTemplate,fabEngineInitialiser,fabricationService,paymentSectionRule,peerSectionRule,publicFilingRule,productHomeSectionRule,historyOperationSection,specialEventsRule,inquiriesSectionRule,quickSellRule,paydexRule,supplierEvaluationRule,creditWorthinessRule,bankingRule,alertScoreSectionRule,financialStressRule,commercialCreditRule,benchMarkingSectionRule,financialStatementsSectionRule,alertInqSectionRule,alertEvntSectionRule,alertOffrSectionRule,evalPlusPaymentTrendRule,evalPlusCreditInformationRule,CAbenchMarkingSectionRule,paymentsBirSectionRule,bizSummaryBirSectionRule,canadaProductHomeSectionRule,canadaQuickSellSectionRule,creditSignalHomeSectionRule,sectionRuleFactory,selfMonitorReportBuilder,alertReportBuilder,evalPlusReportBuilder,creditAdvisorReportBuilder,businessInformationReportBuilder,canadaSelfMonitorReportBuilder,creditSignalReportBuilder,reportBuilderFactory,conservativeLimitRule,industryGroupRule,aggressiveLimitRule,provider1,provider2,provider1Factory,provider2Factory,providerFactory,ccsPercentileRule,ratingRule,creditLtRecomdn,dandBRatingDisplayRule,corporateLinkageSectionRule,freemarkerConfiguration,businessRuleFactory,ruleExtcosAdd,ruleExtInquiryAdd,ruleExtAddonPurchasePercentage,ruleExtCOOPurchasePercentage,ruleExtUserPurchasePercentage,ruleExtcrAdd,ruleExtsgAdd,ruleExtSubBundleAdd,ruleExtDfcAdd,ruleExtPrdDunsExist,ruleExtVerPrdDunsExist,ruleExtVerAdd,conciergeUpgradeConflictCheck,cosIntAlreadyExists,ruleIntDUNSAlreadyAssigned,ruleBlockedUser,ruleCooUtilization,dfcIntAlreadyExists,ruleInternalInquiryAdd,ruleInternalAddonPurchasePercentage,crIntAlreadyExists,ruleInternalSubBundleAdd,ruleIntDUNSAlreadyAssignedCR,ruleIntCanadaSMO,ruleExtCanadaSMO,verifyUserService,verifyUserServiceUtil,connectionFactory,directChannel,jmsTransactionManager,eventChannel,email,alert,audit,duns,xmlLogging,org.springframework.integration.config.RouterFactoryBean#0,org.springframework.integration.config.ConsumerEndpointFactoryBean#0,eventServiceGateway,org.springframework.integration.jms.JmsSendingMessageHandler#0,emailAdapterOut,org.springframework.integration.jms.JmsSendingMessageHandler#1,alertAdapterOut,org.springframework.integration.jms.JmsSendingMessageHandler#2,auditAdapterOut,org.springframework.integration.jms.JmsSendingMessageHandler#3,dunsAdapterOut,org.springframework.integration.jms.JmsSendingMessageHandler#4,xmlLoggingAdapterOut,asyncFulfillmentOutbound,org.springframework.integration.jms.JmsSendingMessageHandler#5,asyncFulfillmentOutboundAdapter,org.springframework.jms.listener.DefaultMessageListenerContainer#0,org.springframework.integration.jms.ChannelPublishingJmsMessageListener#0,owlQueueRequestInbound,owlQueueRequestChain,org.springframework.integration.handler.MessageHandlerChain#0,org.springframework.scheduling.support.PeriodicTrigger#0,org.springframework.integration.config.ConsumerEndpointFactoryBean#1,org.springframework.integration.jms.JmsSendingMessageHandler#6,org.springframework.integration.jms.JmsSendingMessageHandler#7,org.springframework.integration.jms.JmsSendingMessageHandler#8,org.springframework.integration.jms.JmsSendingMessageHandler#9,org.springframework.integration.jms.JmsSendingMessageHandler#10,org.springframework.integration.config.ServiceActivatorFactoryBean#0,org.springframework.integration.config.ConsumerEndpointFactoryBean#2,org.springframework.integration.config.ServiceActivatorFactoryBean#1,org.springframework.integration.config.ConsumerEndpointFactoryBean#3,org.springframework.integration.config.ServiceActivatorFactoryBean#2,org.springframework.integration.config.ConsumerEndpointFactoryBean#4,org.springframework.integration.config.ServiceActivatorFactoryBean#3,org.springframework.integration.config.ConsumerEndpointFactoryBean#5,org.springframework.integration.config.ServiceActivatorFactoryBean#4,org.springframework.integration.config.ConsumerEndpointFactoryBean#6,org.springframework.jms.listener.DefaultMessageListenerContainer#1,org.springframework.integration.jms.ChannelPublishingJmsMessageListener#1,emailInbound,org.springframework.jms.listener.DefaultMessageListenerContainer#2,org.springframework.integration.jms.ChannelPublishingJmsMessageListener#2,alertInbound,org.springframework.jms.listener.DefaultMessageListenerContainer#3,org.springframework.integration.jms.ChannelPublishingJmsMessageListener#3,auditInbound,org.springframework.jms.listener.DefaultMessageListenerContainer#4,org.springframework.integration.jms.ChannelPublishingJmsMessageListener#4,dunsInbound,org.springframework.jms.listener.DefaultMessageListenerContainer#5,org.springframework.integration.jms.ChannelPublishingJmsMessageListener#5,xmlLoggingInbound,org.springframework.integration.internalMessagingAnnotationPostProcessor,org.springframework.integration.internalPublisherAnnotationBeanPostProcessor,leadsFulfillmentService,leadsMessageStore,leadsFulfillmentGateway,retrieveLeads,org.springframework.integration.config.ServiceActivatorFactoryBean#5,org.springframework.scheduling.support.PeriodicTrigger#1,leadsServiceActivator,dbccIntInit,scopedTarget.orderConfirmBean,orderConfirmBean,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,nullChannel,errorChannel,_org.springframework.integration.errorLogger,taskScheduler,org.springframework.integration.config.IdGeneratorConfigurer#0]; root of factory hierarchy
+Jun 06, 2014 12:16:59 PM com.googlecode.ehcache.annotations.resolver.DefaultCacheResolverFactory getCache
+WARNING: No cache named 'businessDetails' exists, it will be created from the defaultCache
+Jun 06, 2014 12:17:00 PM org.springframework.aop.framework.CglibAopProxy doValidateClass
+WARNING: Unable to proxy method [public final void org.springframework.orm.jpa.support.JpaDaoSupport.setEntityManagerFactory(javax.persistence.EntityManagerFactory)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+Jun 06, 2014 12:17:00 PM org.springframework.aop.framework.CglibAopProxy doValidateClass
+WARNING: Unable to proxy method [public final org.springframework.orm.jpa.JpaTemplate org.springframework.orm.jpa.support.JpaDaoSupport.getJpaTemplate()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+Jun 06, 2014 12:17:00 PM org.springframework.aop.framework.CglibAopProxy doValidateClass
+WARNING: Unable to proxy method [public final void org.springframework.orm.jpa.support.JpaDaoSupport.setEntityManager(javax.persistence.EntityManager)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+Jun 06, 2014 12:17:00 PM org.springframework.aop.framework.CglibAopProxy doValidateClass
+WARNING: Unable to proxy method [public final void org.springframework.orm.jpa.support.JpaDaoSupport.setJpaTemplate(org.springframework.orm.jpa.JpaTemplate)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+Jun 06, 2014 12:17:00 PM org.springframework.aop.framework.CglibAopProxy doValidateClass
+WARNING: Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+Jun 06, 2014 12:17:00 PM com.dbcc.ecomm.service.helper.CyberSourceHelper copyKeyFromResources
+INFO: Copying cybersource key from classpath:/config/keys/dandb_qa3.p12 to /media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/../server/default/conf/dbcc/dandb_qa3.p12
+Jun 06, 2014 12:17:00 PM com.dbcc.ecomm.service.helper.CyberSourceHelper copyKeyFromResources
+INFO: Copying cybersource key from classpath:/config/keys/dandb_qa2.p12 to /media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/../server/default/conf/dbcc/dandb_qa2.p12
+Jun 06, 2014 12:17:00 PM com.dbcc.ecomm.service.helper.CyberSourceHelper copyKeyFromResources
+INFO: Copying cybersource key from classpath:/config/keys/dandb_qa1.p12 to /media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/../server/default/conf/dbcc/dandb_qa1.p12
+Jun 06, 2014 12:17:00 PM com.dbcc.ecomm.service.helper.CyberSourceHelper copyKeyFromResources
+INFO: Copying cybersource key from classpath:/config/keys/dandb_qamycr.p12 to /media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/../server/default/conf/dbcc/dandb_qamycr.p12
+Jun 06, 2014 12:17:00 PM com.dbcc.ecomm.service.helper.CyberSourceHelper copyKeyFromResources
+INFO: Copying cybersource key from classpath:/config/keys/dandb.p12 to /media/ephemeral0/jenkins-slave/workspace/dutchs_playground/DBCC/regression/target/cargo/configurations/tomcat7x/../server/default/conf/dbcc/dandb.p12
+[GC 655983K->307952K(782848K), 0.1049530 secs]
+Jun 06, 2014 12:17:03 PM org.jdbcdslog.ConnectionLogger info
+INFO: connect to URL jdbc:jtds:sqlserver://10.26.34.10:1433;DatabaseName=DBCC_ECOMM;sendStringParametersAsUnicode=false for user app_build
+Jun 06, 2014 12:17:03 PM com.dbcc.ecomm.core.common.util.HibernateExtendedJpaDialect$WorkClassToCreateIsolatedTransaction execute
+INFO: Connection Info: isolationlevel=4096 , instance=ProxyConnection[PooledConnection[net.sourceforge.jtds.jdbc.ConnectionJDBC3@153cb632]]
+Jun 06, 2014 12:17:03 PM com.dbcc.ecomm.core.common.util.HibernateExtendedJpaDialect$WorkClassToCreateIsolatedTransaction execute
+INFO: Transaction Info: IsolationLevel=-1 , PropagationBehavior=0 , Timeout=-1 , Name=com.dbcc.ecomm.dao.impl.GenericDAOImpl.findEntitiesByNamedQuery
+Jun 06, 2014 12:17:03 PM com.dbcc.ecomm.core.common.util.HibernateExtendedJpaDialect$WorkClassToCreateIsolatedTransaction execute
+INFO: The previousIsolationLevel null
+Hibernate: select applicatio0_.rule_code as rule_cod1_120_, applicatio0_.created_by as created_2_120_, applicatio0_.created_date as created_3_120_, applicatio0_.last_modified_by as last_mod4_120_, applicatio0_.last_modified_date as last_mod5_120_, applicatio0_.rule_description as rule_des6_120_, applicatio0_.rule_is_active_indicator as rule_is_7_120_, applicatio0_.rule_is_deleted_indicator as rule_is_8_120_, applicatio0_.rule_query_text as rule_que9_120_, applicatio0_.rule_subtype_code as rule_su10_120_, applicatio0_.rule_subtype_description as rule_su11_120_, applicatio0_.rule_type_code as rule_ty12_120_, applicatio0_.rule_type_description as rule_ty13_120_ from Product.application_rule applicatio0_
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.StatementLogger info
+INFO: select applicatio0_.rule_code as rule_cod1_120_, applicatio0_.created_by as created_2_120_, applicatio0_.created_date as created_3_120_, applicatio0_.last_modified_by as last_mod4_120_, applicatio0_.last_modified_date as last_mod5_120_, applicatio0_.rule_description as rule_des6_120_, applicatio0_.rule_is_active_indicator as rule_is_7_120_, applicatio0_.rule_is_deleted_indicator as rule_is_8_120_, applicatio0_.rule_query_text as rule_que9_120_, applicatio0_.rule_subtype_code as rule_su10_120_, applicatio0_.rule_subtype_description as rule_su11_120_, applicatio0_.rule_type_code as rule_ty12_120_, applicatio0_.rule_type_description as rule_ty13_120_ from Product.application_rule applicatio0_; 7 ms.
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'CHECK_MAX_ALLOWED_UPGRADE_PROMO', 10, '2014-02-11 18:07:17', 10, '2014-02-11 18:07:17', 'Conflicting maximum promotion for upgrade', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@76357598, 'ALL_PRD', 'All Products', 'PURCHASE_RULE', 'Purchase Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'CNCRG_UPG_EXT_PROD_CHEK', 10, '2013-12-10 11:20:08', 10, '2013-12-10 11:20:08', 'Conflicting product check for concierge upgrade', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@4dba94a8, 'ALL_PRD', 'All Products', 'PURCHASE_RULE', 'Purchase Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PUR_BLOCKED_USER', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'Blocked User purchase rule', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@4e02c025, 'ALL_PRD', 'All Products', 'PURCHASE_RULE', 'Blocked User purchase rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PUR_COO_CNT_CHK', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'COO Report Count Check', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@9502d5f, 'ALL_PRD', 'All Products', 'PURCHASE_RULE', 'Purchase Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PUR_DUNS_ASSIGNED', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'COS  already exist rule for Websales.', '0', '0', net.sourceforge.jtds.jdbc.ClobImpl@1572e3e9, 'ALL_PRD', 'All Products', 'PURCHASE_RULE', 'Purchase Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PUR_DUNS_ASSIGNED_CR', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'Duns already assigned for CR in Telesales', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@50639acb, 'ALL_PRD', 'All Products', 'PURCHASE_RULE', 'Purchase Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PUR_EXT_ADD_UTL', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'Addon percentage Utilization', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@5f1bb5ff, 'ALL_PRD', 'All Products', 'PURCHASE_RULE', 'Purchase Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PUR_EXT_CAN_SMO_EXISTS', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'CAN SMO  already exist rule for Websales.', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@5fde487, 'ALL_PRD', 'All Products', 'PURCHASE_RULE', 'Purchase Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PUR_EXT_COO_UTL', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'COO Percentage Utilization', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@236e7ce4, 'ALL_PRD', 'All Products', 'PURCHASE_RULE', 'Purchase Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PUR_EXT_COS_EXISTS', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'COS  already exist rule for Websales.', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@e90574a, 'ALL_PRD', 'All Products', 'PURCHASE_RULE', 'Purchase Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PUR_EXT_CR_EXISTS', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'CR  already exist rule for Websales.', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@36f5b9a, 'ALL_PRD', 'All Products', 'PURCHASE_RULE', 'Purchase Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PUR_EXT_DFC_ADD', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'Dun File Creator Add Flow', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@29c5cb2f, 'ALL_PRD', 'All Products', 'PURCHASE_RULE', 'Purchase Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PUR_EXT_INQUIRY_EXISTS', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'COS Inquiry already exist.', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@72059090, 'ALL_PRD', 'All Products', 'PURCHASE_RULE', 'Purchase Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PUR_EXT_PR_DNS_EXST', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'Product Exist for Duns', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@15d3f71, 'ALL_PRD', 'All Products', 'PURCHASE_RULE', 'Purchase Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PUR_EXT_SG_EXISTS', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'Score Guard Purchase Rule ', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@1cc43d6, 'ALL_PRD', 'All Products', 'PURCHASE_RULE', 'Purchase Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PUR_EXT_SUB_BNDLE', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'Subscription Bundle Flow', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@51d242dc, 'ALL_PRD', 'All Products', 'PURCHASE_RULE', 'Purchase Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PUR_EXT_USRS_UTL', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'USERS Percentage Utilization', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@ab4497d, 'ALL_PRD', 'All Products', 'PURCHASE_RULE', 'Purchase Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PUR_EXT_VER_PRD', 10, '2014-04-30 18:04:44', 10, '2014-04-30 18:04:44', 'VER  already exist rule for Websales.', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@2c45f435, 'ALL_PRD', 'All Products', 'PURCHASE_RULE', 'Purchase Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PUR_INT_ADD_UTL', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'Addon percentage utilization', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@14fbfc3, 'ALL_PRD', 'All Products', 'PURCHASE_RULE', 'Purchase Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PUR_INT_CAN_SMO_EXISTS', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'CAN SMO  already exist rule for telesales.', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@4ab3de7a, 'ALL_PRD', 'All Products', 'PURCHASE_RULE', 'Purchase Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PUR_INT_COO_UTL', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'COO Percentage Utilization', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@378b97c7, 'ALL_PRD', 'All Products', 'PURCHASE_RULE', 'Purchase Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PUR_INT_COS_EXISTS', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'COS  already exist rule for telesales.', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@42756245, 'ALL_PRD', 'All Products', 'PURCHASE_RULE', 'Purchase Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PUR_INT_CR_EXISTS', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'CR  already exist rule for Telesales.', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@27310c18, 'ALL_PRD', 'All Products', 'PURCHASE_RULE', 'Purchase Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PUR_INT_DFC_EXISTS', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'DFC Exists rule', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@23218c27, 'ALL_PRD', 'All Products', 'PURCHASE_RULE', 'Purchase Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PUR_INT_INQUIRY_EXISTS', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'COS Inquiry already exist.', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@498ec47f, 'ALL_PRD', 'All Products', 'PURCHASE_RULE', 'Purchase Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PUR_INT_SUB_BNDLE', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'Subscription Bundle Flow-Telesales', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@53c2b6ae, 'ALL_PRD', 'All Products', 'PURCHASE_RULE', 'Purchase Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PUR_INV_DNS_EXISTS', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'DUNS already exists purchased via Invoice', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@1829ecbf, 'ALL_PRD', 'All Products', 'Purchase Rule', 'Purchase Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PUR_PPR_COS_CHK', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'Check COS is purchased', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@19f2d49f, 'ALL_PRD', 'All Products', 'PURCHASE_RULE', ' If the customer already has a base product no other COS products/bundles on the same company (as earlier purchased by this customer) should be allowed to be purchased.'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PUR_VER_PRD_EXST_DUNS', 10, '2014-04-11 18:13:19', 10, '2014-04-11 18:13:19', 'Check if an existing verified product exists for the same duns', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@2219f831, 'VER_PRD', 'Verified Products', 'PURCHASE_RULE', 'Purchase Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PYMT_ACT_FEE_INV_PRD', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'Enable invoice for Activation fee product', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@a201246, 'ALL_PRD', 'All Products', 'PAYMENT_RULE', 'Payment Type Dispaly Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PYMT_BNCKRPCY_DUNS', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'Check the DUNS belongs to Banckrupted Company', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@742e0476, 'ALL_PRD', 'All Products', 'PAYMENT_RULE', 'Payment Type Dispaly Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PYMT_CCS_CLASS_CODE', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'Credit Score class with values blank,4 or 5', '0', '0', net.sourceforge.jtds.jdbc.ClobImpl@76412213, 'ALL_PRD', 'All Products', 'PAYMENT_RULE', 'Payment Type Dispaly Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PYMT_COS_INV_PRD', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'Check the COS product is Invoicable', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@5079717e, 'ALL_PRD', 'All Products', 'PAYMENT_RULE', 'Payment Type Dispaly Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PYMT_CUST_INV_OPT', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'If the credit score class is 1,2 and 3  we have to display invoice options', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@ff441e6, 'ALL_PRD', 'All Products', 'PAYMENT_RULE', 'Payment Type Dispaly Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PYMT_CUST_NO_PAY_INV_OPT', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'If the credit score class is 4 or 5, the customer has no entry in our DB or has an entry and has not made any payments then we do not display invoice options.', '0', '0', net.sourceforge.jtds.jdbc.ClobImpl@543d6179, 'ALL_PRD', 'All Products', 'PAYMENT_RULE', 'Payment Type Dispaly Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PYMT_DUNS_CNCL_LAST_YR', 10, '2000-01-01 00:00:00', 40, '2012-04-20 11:01:20', 'A DUNS has 3 or more cancellations in the last one year.', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@4c18d681, 'ALL_PRD', 'All Products', 'PAYMENT_RULE', 'Payment Type Dispaly Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PYMT_NO_PAY_LAST_YR', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'If the credit score class is 0 or 4 or 5 or null and the customer is in DB and has not made any payments in the last one year then we do not display invoice options', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@2dd3a0d2, 'ALL_PRD', 'All Products', 'PAYMENT_RULE', 'Payment Type Dispaly Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PYMT_NOT_YRLY', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'Item with billing frequency not Yearly', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@2c3d20b7, 'ALL_PRD', 'All Products', 'PAYMENT_RULE', 'Payment Type Display Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PYMT_OPN_DB_MORE_60', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'Customer has Open debt for more than 60 days.', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@4dc0f0ef, 'ALL_PRD', 'All Products', 'PAYMENT_RULE', 'Payment Type Dispaly Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PYMT_PAYDEX_SCORE', 10, '2000-01-01 00:00:00', 10, '2000-01-01 00:00:00', 'Duns with paydex score <=65', '1', '0', net.sourceforge.jtds.jdbc.ClobImpl@4b3d377d, 'ALL_PRD', 'All Products', 'PAYMENT_RULE', 'Payment Type Dispaly Rule'}
+Jun 06, 2014 12:17:04 PM org.jdbcdslog.StatementLogger info
+INFO: Total of 40 rows read from JDBC ResultSet
+Jun 06, 2014 12:17:04 PM com.googlecode.ehcache.annotations.resolver.DefaultCacheResolverFactory getCache
+WARNING: No cache named 'countryState' exists, it will be created from the defaultCache
+Jun 06, 2014 12:17:05 PM com.dbcc.ecomm.web.util.DbccIntInit startup
+INFO: Started Initilizing......
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ConnectionLogger info
+INFO: connect to URL jdbc:jtds:sqlserver://10.26.34.10:1433;DatabaseName=DBCC_ECOMM;sendStringParametersAsUnicode=false for user app_build
+Jun 06, 2014 12:17:05 PM com.dbcc.ecomm.core.common.util.HibernateExtendedJpaDialect$WorkClassToCreateIsolatedTransaction execute
+INFO: Connection Info: isolationlevel=4096 , instance=ProxyConnection[PooledConnection[net.sourceforge.jtds.jdbc.ConnectionJDBC3@153cb632]]
+Jun 06, 2014 12:17:05 PM com.dbcc.ecomm.core.common.util.HibernateExtendedJpaDialect$WorkClassToCreateIsolatedTransaction execute
+INFO: Transaction Info: IsolationLevel=-1 , PropagationBehavior=0 , Timeout=-1 , Name=com.dbcc.ecomm.dao.impl.GenericDAOImpl.findEntitiesByNamedQuery
+Jun 06, 2014 12:17:05 PM com.dbcc.ecomm.core.common.util.HibernateExtendedJpaDialect$WorkClassToCreateIsolatedTransaction execute
+INFO: The previousIsolationLevel null
+Hibernate: select country0_.country_code as country_1_27_, country0_.country_iso_code as country_2_27_, country0_.country_name as country_3_27_ from AppUser.country country0_ order by country0_.country_name
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.StatementLogger info
+INFO: select country0_.country_code as country_1_27_, country0_.country_iso_code as country_2_27_, country0_.country_name as country_3_27_ from AppUser.country country0_ order by country0_.country_name; 4 ms.
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'XB', '913', 'Abu Dhabi'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'AY', '935', 'Admiralty Islands'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'AF', '4', 'Afghanistan'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'XA', '915', 'Ajman'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'XL', '981', 'Al Ain'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'AB', '8', 'Albania'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'AG', '12', 'Algeria'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'AS', '16', 'American Samoa'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'AN', '20', 'Andorra'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'AO', '24', 'Angola'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'AL', '660', 'Anguilla'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'AD', '28', 'Antigua & Barbuda'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'AR', '32', 'Argentina'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'AM', '51', 'Armenia'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'AA', '533', 'Aruba'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'AI', '983', 'Ascension Island'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'AU', '36', 'Australia'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'OS', '40', 'Austria'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'JZ', '31', 'Azerbaijan'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'BH', '44', 'Bahamas'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'BR', '48', 'Bahrain'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'BA', '50', 'Bangladesh'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'BB', '52', 'Barbados'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'BL', '56', 'Belgium'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'BG', '84', 'Belize'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'BN', '204', 'Benin, Peoples Republic Of'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'BE', '60', 'Bermuda'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'BT', '64', 'Bhutan'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'BO', '68', 'Bolivia'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'BS', '70', 'Bosnia And Herzegovina'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'BW', '72', 'Botswana'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'BZ', '76', 'Brazil'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'BV', '92', 'British Virgin Islands'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'BI', '96', 'Brunei'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'BU', '100', 'Bulgaria'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'BF', '854', 'Burkina Faso'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'BM', '104', 'Burma (Myanmar)'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'BD', '108', 'Burundi'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'BY', '112', 'Byelorussia'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'CM', '120', 'Cameroon'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'CA', '124', 'Canada'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'CV', '132', 'Cape Verde, Republic Of'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'CR', '943', 'Caroline Islands'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'CI', '136', 'Cayman Islands'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'CE', '140', 'Central Africa Republic'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'CG', '148', 'Chad, Republic Of'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'CL', '152', 'Chile'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'CP', '156', 'China, Peoples Republic Of'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'CX', '162', 'Christmas Island'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'CB', '170', 'Colombia'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'CO', '174', 'Comoros Republic'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'CQ', '178', 'Congo Democratic Republic'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'CK', '184', 'Cook Islands'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'CC', '188', 'Costa Rica'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'ZC', '191', 'Croatia'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'CU', '192', 'Cuba'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'CY', '196', 'Cyprus'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'XC', '203', 'Czech Republic'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'DK', '208', 'Denmark'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'DJ', '262', 'Djibouti'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'DO', '212', 'Dominica'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'DR', '214', 'Dominican Republic'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'XD', '923', 'Dubai'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'TP', '626', 'East Timor'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'EC', '218', 'Ecuador'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'EG', '818', 'Egypt'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'EL', '222', 'El Salvador'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'EQ', '226', 'Equatorial Guinea'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'ER', '232', 'Eritrea'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'EO', '233', 'Estonia'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'ET', '231', 'Ethiopia'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'FO', '234', 'Faero Islands'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'FA', '238', 'Falkland Islands'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'FJ', '242', 'Fiji'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'SF', '246', 'Finland'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'FR', '250', 'France'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'FG', '254', 'French Guiana'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PF', '258', 'French Polynesia/Tahiti'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'XF', '925', 'Fujairah'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'GA', '266', 'Gabon Republic'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'GB', '270', 'Gambia'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'GE', '268', 'Georgia'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'DE', '276', 'Germany'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'GH', '288', 'Ghana'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'GI', '292', 'Gibraltar'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'GR', '300', 'Greece'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'GL', '304', 'Greenland'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'GG', '308', 'Grenada'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'GU', '312', 'Guadeloupe'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'GM', '316', 'Guam'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'GT', '320', 'Guatemala'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'GS', '624', 'Guinea Bissau'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'GN', '324', 'Guinea, Republic Of'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'GY', '328', 'Guyana'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'HA', '332', 'Haiti'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'HO', '340', 'Honduras'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'HK', '344', 'Hong Kong'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'HU', '348', 'Hungary'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'IC', '352', 'Iceland'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'IN', '356', 'India'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'ID', '360', 'Indonesia'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'IA', '364', 'Iran'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'IQ', '368', 'Iraq'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'IR', '372', 'Ireland'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'IS', '376', 'Israel'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'IT', '380', 'Italy'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'IV', '384', 'Ivory Coast/Cote D''Ivoire'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'JM', '388', 'Jamaica'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'JA', '392', 'Japan'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'JO', '400', 'Jordan'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'KA', '116', 'Kampuchea'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'KZ', '398', 'Kazakhstan'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'KE', '404', 'Kenya'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'KI', '296', 'Kiribati'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'KD', '408', 'Korea, North'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'KR', '410', 'Korea, Republic Of'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'KU', '414', 'Kuwait'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'XZ', '417', 'Kyrgyzstan'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'LA', '418', 'Laos'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'LV', '428', 'Latvia'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'LE', '422', 'Lebanon'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'LS', '426', 'Lesotho'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'LB', '430', 'Liberia'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'LI', '434', 'Libya'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'FL', '438', 'Liechtenstein'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'LT', '440', 'Lithuania'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'LX', '442', 'Luxembourg'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MA', '446', 'Macau'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'YR', '937', 'Macedonia'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MG', '450', 'Madagasgar'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MW', '454', 'Malawi'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MS', '458', 'Malaysia'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MV', '462', 'Maldives'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'ML', '466', 'Mali'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MT', '470', 'Malta'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MN', '580', 'Marianas Islands'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MI', '584', 'Marshall Islands'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MQ', '474', 'Martinique'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MY', '478', 'Mauritania'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MU', '480', 'Mauritius'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'XM', '175', 'Mayotte'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MX', '484', 'Mexico'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'IM', '933', 'Midway Islands'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MD', '498', 'Moldova'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MC', '492', 'Monaco'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'ME', '500', 'Montserrat'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MO', '504', 'Morocco'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MZ', '508', 'Mozambique'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NM', '516', 'Namibia'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NU', '520', 'Nauru'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NE', '524', 'Nepal'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NL', '528', 'Netherlands'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NA', '530', 'Netherlands Antilles'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NC', '540', 'New Caledonia'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NZ', '554', 'New Zealand'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NR', '558', 'Nicaragua'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NG', '562', 'Niger'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NI', '566', 'Nigeria'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NN', '574', 'Norfolk Island'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NO', '578', 'Norway'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'OM', '512', 'Oman'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PA', '586', 'Pakistan'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PN', '591', 'Panama'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PP', '598', 'Papua New Guinea'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PG', '600', 'Paraguay'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PR', '604', 'Peru'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PH', '608', 'Philippines'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PL', '616', 'Poland'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PO', '620', 'Portugal'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'QA', '634', 'Qatar'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'XR', '917', 'Ras Al Khaimah'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'RE', '638', 'Reunion Island'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'RO', '642', 'Romania'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'RF', '643', 'Russian Federation'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'RW', '646', 'Rwanda'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'SH', '654', 'Saint Helena'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'SJ', '659', 'Saint Kitts & Nevis'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'SQ', '662', 'Saint Lucia'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PM', '666', 'Saint Pierre Et Miquelon'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'SV', '670', 'Saint Vincent'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'SM', '674', 'San Marino'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'ST', '678', 'Sao Tome & Principe'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'SD', '682', 'Saudi Arabia'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'SG', '686', 'Senegal'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'SE', '690', 'Seychelles'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'XS', '919', 'Sharjah'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'SL', '694', 'Sierra Leone'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'SI', '702', 'Singapore'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'SK', '703', 'Slovakia'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'SB', '705', 'Slovenia'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'SS', '90', 'Solomon Islands'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'SO', '706', 'Somalia'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'SA', '710', 'South Africa'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'ZS', '984', 'South Georgia'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'DW', '986', 'South Sandwich Islands'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'ES', '724', 'Spain'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'SR', '144', 'Sri Lanka'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'SU', '736', 'Sudan'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'SN', '740', 'Suriname'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'KS', '748', 'Swaziland'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'SW', '752', 'Sweden'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'CH', '756', 'Switzerland'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'SY', '760', 'Syria'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'CT', '158', 'Taiwan (Republic Of China)'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'TJ', '762', 'Tajhikstan'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'TA', '834', 'Tanzania'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'TH', '764', 'Thailand'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'TG', '768', 'Togo'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'ZT', '772', 'Tokelau Islands'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'TO', '776', 'Tonga'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'TT', '780', 'Trinidad And Tobago'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'TU', '788', 'Tunisia'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'TK', '792', 'Turkey'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'CN', '977', 'Turkish Cyprus'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'TM', '795', 'Turkmenistan'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'TC', '796', 'Turks And Caicos'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'TV', '798', 'Tuvalu'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'UG', '800', 'Uganda'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'UI', '804', 'Ukraine'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'XU', '921', 'Umm-Al-Quwain'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'UA', '784', 'United Arab Emirates'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'UK', '826', 'United Kingdom'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'US', '840', 'United States Of America'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'UR', '858', 'Uruguay'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'UZ', '860', 'Uzbekistan'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'VA', '548', 'Vanuatu'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'VE', '862', 'Venezuela'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'VI', '704', 'Vietnam'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'WK', '931', 'Wake Island'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'WF', '876', 'Wallis & Futuna Islands'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'WS', '882', 'Western Samoa'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'YE', '887', 'Yemen'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'YU', '891', 'Yugoslavia'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'ZR', '180', 'Zaire'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'ZA', '894', 'Zambia'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'ZI', '716', 'Zimbabwe'}
+Jun 06, 2014 12:17:05 PM org.jdbcdslog.StatementLogger info
+INFO: Total of 236 rows read from JDBC ResultSet
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ConnectionLogger info
+INFO: connect to URL jdbc:jtds:sqlserver://10.26.34.10:1433;DatabaseName=DBCC_ECOMM;sendStringParametersAsUnicode=false for user app_build
+Jun 06, 2014 12:17:06 PM com.dbcc.ecomm.core.common.util.HibernateExtendedJpaDialect$WorkClassToCreateIsolatedTransaction execute
+INFO: Connection Info: isolationlevel=4096 , instance=ProxyConnection[PooledConnection[net.sourceforge.jtds.jdbc.ConnectionJDBC3@153cb632]]
+Jun 06, 2014 12:17:06 PM com.dbcc.ecomm.core.common.util.HibernateExtendedJpaDialect$WorkClassToCreateIsolatedTransaction execute
+INFO: Transaction Info: IsolationLevel=-1 , PropagationBehavior=0 , Timeout=-1 , Name=com.dbcc.ecomm.dao.impl.GenericDAOImpl.findEntitiesByNamedQuery
+Jun 06, 2014 12:17:06 PM com.dbcc.ecomm.core.common.util.HibernateExtendedJpaDialect$WorkClassToCreateIsolatedTransaction execute
+INFO: The previousIsolationLevel null
+Hibernate: select countrysta0_.state_code as state_co1_28_, countrysta0_.country_code as country_2_28_, countrysta0_.state_name as state_na3_28_ from AppUser.country_state countrysta0_ order by countrysta0_.state_name
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.StatementLogger info
+INFO: select countrysta0_.state_code as state_co1_28_, countrysta0_.country_code as country_2_28_, countrysta0_.state_name as state_na3_28_ from AppUser.country_state countrysta0_ order by countrysta0_.state_name; 4 ms.
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'AL', 'US', 'Alabama'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'AK', 'US', 'Alaska'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'AB', 'CA', 'Alberta'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'AS', 'US', 'American Samoa'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'AZ', 'US', 'Arizona'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'AR', 'US', 'Arkansas'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'BC', 'CA', 'British Columbia'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'CA', 'US', 'California'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'CO', 'US', 'Colorado'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'CT', 'US', 'Connecticut'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'DE', 'US', 'Delaware'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'DC', 'US', 'District of Columbia'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'FM', 'US', 'Federated States of Micronesia'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'FL', 'US', 'Florida'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'GA', 'US', 'Georgia'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'GU', 'US', 'Guam'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'HI', 'US', 'Hawaii'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'ID', 'US', 'Idaho'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'IL', 'US', 'Illinois'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'IN', 'US', 'Indiana'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'IA', 'US', 'Iowa'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'KS', 'US', 'Kansas'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'KY', 'US', 'Kentucky'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'LA', 'US', 'Louisiana'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'ME', 'US', 'Maine'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MB', 'CA', 'Manitoba'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MH', 'US', 'Marshall Islands'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MD', 'US', 'Maryland'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MA', 'US', 'Massachusetts'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MI', 'US', 'Michigan'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MN', 'US', 'Minnesota'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MS', 'US', 'Mississippi'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MO', 'US', 'Missouri'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MT', 'US', 'Montana'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NE', 'US', 'Nebraska'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NV', 'US', 'Nevada'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NB', 'CA', 'New Brunswick'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NH', 'US', 'New Hampshire'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NJ', 'US', 'New Jersey'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NM', 'US', 'New Mexico'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NY', 'US', 'New York'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NL', 'CA', 'Newfoundland and Labrador'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NC', 'US', 'North Carolina'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'ND', 'US', 'North Dakota'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MP', 'US', 'Northern Mariana Islands'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NT', 'CA', 'Northwest Territories'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NS', 'CA', 'Nova Scotia'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NU', 'CA', 'Nunavut'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'OH', 'US', 'Ohio'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'OK', 'US', 'Oklahoma'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'ON', 'CA', 'Ontario'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'OR', 'US', 'Oregon'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PW', 'US', 'Palau'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PA', 'US', 'Pennsylvania'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PE', 'CA', 'Prince Edward Island'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PR', 'US', 'Puerto Rico'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'QC', 'CA', 'Quebec'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'RI', 'US', 'Rhode Island'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'SK', 'CA', 'Saskatchewan'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'SC', 'US', 'South Carolina'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'SD', 'US', 'South Dakota'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'TN', 'US', 'Tennessee'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'TX', 'US', 'Texas'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'UT', 'US', 'Utah'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'VT', 'US', 'Vermont'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'VI', 'US', 'Virgin Islands'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'VA', 'US', 'Virginia'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'WA', 'US', 'Washington'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'WV', 'US', 'West Virginia'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'WI', 'US', 'Wisconsin'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'WY', 'US', 'Wyoming'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'YT', 'CA', 'Yukon'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.StatementLogger info
+INFO: Total of 72 rows read from JDBC ResultSet
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ConnectionLogger info
+INFO: connect to URL jdbc:jtds:sqlserver://10.26.34.10:1433;DatabaseName=DBCC_ECOMM;sendStringParametersAsUnicode=false for user app_build
+Jun 06, 2014 12:17:06 PM com.dbcc.ecomm.core.common.util.HibernateExtendedJpaDialect$WorkClassToCreateIsolatedTransaction execute
+INFO: Connection Info: isolationlevel=4096 , instance=ProxyConnection[PooledConnection[net.sourceforge.jtds.jdbc.ConnectionJDBC3@153cb632]]
+Jun 06, 2014 12:17:06 PM com.dbcc.ecomm.core.common.util.HibernateExtendedJpaDialect$WorkClassToCreateIsolatedTransaction execute
+INFO: Transaction Info: IsolationLevel=-1 , PropagationBehavior=0 , Timeout=-1 , Name=com.dbcc.ecomm.dao.impl.GenericDAOImpl.findEntitiesByNamedQuery
+Jun 06, 2014 12:17:06 PM com.dbcc.ecomm.core.common.util.HibernateExtendedJpaDialect$WorkClassToCreateIsolatedTransaction execute
+INFO: The previousIsolationLevel null
+Hibernate: select countrysta0_.state_code as state_co1_28_, countrysta0_.country_code as country_2_28_, countrysta0_.state_name as state_na3_28_ from AppUser.country_state countrysta0_ where countrysta0_.country_code=?
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.StatementLogger info
+INFO: select countrysta0_.state_code as state_co1_28_, countrysta0_.country_code as country_2_28_, countrysta0_.state_name as state_na3_28_ from AppUser.country_state countrysta0_ where countrysta0_.country_code='US'; 3 ms.
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'AK', 'US', 'Alaska'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'AL', 'US', 'Alabama'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'AR', 'US', 'Arkansas'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'AS', 'US', 'American Samoa'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'AZ', 'US', 'Arizona'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'CA', 'US', 'California'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'CO', 'US', 'Colorado'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'CT', 'US', 'Connecticut'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'DC', 'US', 'District of Columbia'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'DE', 'US', 'Delaware'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'FL', 'US', 'Florida'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'FM', 'US', 'Federated States of Micronesia'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'GA', 'US', 'Georgia'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'GU', 'US', 'Guam'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'HI', 'US', 'Hawaii'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'IA', 'US', 'Iowa'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'ID', 'US', 'Idaho'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'IL', 'US', 'Illinois'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'IN', 'US', 'Indiana'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'KS', 'US', 'Kansas'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'KY', 'US', 'Kentucky'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'LA', 'US', 'Louisiana'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MA', 'US', 'Massachusetts'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MD', 'US', 'Maryland'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'ME', 'US', 'Maine'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MH', 'US', 'Marshall Islands'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MI', 'US', 'Michigan'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MN', 'US', 'Minnesota'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MO', 'US', 'Missouri'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MP', 'US', 'Northern Mariana Islands'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MS', 'US', 'Mississippi'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'MT', 'US', 'Montana'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NC', 'US', 'North Carolina'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'ND', 'US', 'North Dakota'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NE', 'US', 'Nebraska'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NH', 'US', 'New Hampshire'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NJ', 'US', 'New Jersey'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NM', 'US', 'New Mexico'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NV', 'US', 'Nevada'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'NY', 'US', 'New York'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'OH', 'US', 'Ohio'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'OK', 'US', 'Oklahoma'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'OR', 'US', 'Oregon'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PA', 'US', 'Pennsylvania'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PR', 'US', 'Puerto Rico'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'PW', 'US', 'Palau'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'RI', 'US', 'Rhode Island'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'SC', 'US', 'South Carolina'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'SD', 'US', 'South Dakota'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'TN', 'US', 'Tennessee'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'TX', 'US', 'Texas'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'UT', 'US', 'Utah'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'VA', 'US', 'Virginia'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'VI', 'US', 'Virgin Islands'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'VT', 'US', 'Vermont'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'WA', 'US', 'Washington'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'WI', 'US', 'Wisconsin'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'WV', 'US', 'West Virginia'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.ResultSetLogger info
+INFO: java.sql.ResultSet.next {'WY', 'US', 'Wyoming'}
+Jun 06, 2014 12:17:06 PM org.jdbcdslog.StatementLogger info
+INFO: Total of 59 rows read from JDBC ResultSet
