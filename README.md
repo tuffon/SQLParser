@@ -16,14 +16,14 @@ Publishing the WebApp: When the jenkins build completes and the json files have 
 webapp itself, with the containing json files.
 
 TODO:
-> Consuming and writing large text currently causes issues.  The SQL logs are typically above 35 MB in size and the mechanism
-    with which files are written need to be redesigned.
+Consuming and writing large text currently causes issues.  The SQL logs are typically above 35 MB in size and the mechanism
+    with which files are written need to be redesigned.<br>
 TODO:
-> Completion of WebApp.  The work left for this is minimal, some parsing of the strings needs to be done and simply thrown into a table.
+Completion of WebApp.  The work left for this is minimal, some parsing of the strings needs to be done and simply thrown into a table.<br>
 TODO:
-> Fixing a bug where plugin configs do not persist on reopening the job config
+Fixing a bug where plugin configs do not persist on reopening the job config<br>
 TODO:
-> Implementing the reading of the webapp and publishing of the webapp through the sqlparser class
+> Implementing the reading of the webapp and publishing of the webapp through the sqlparser class<br>
 TODO:
-> Integration of SQLParser class within the Query Parser plugin
+> Integration of SQLParser class within the Query Parser plugin<br>
 
