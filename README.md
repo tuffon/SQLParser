@@ -15,15 +15,14 @@ actual production or pre-production database.
 Publishing the WebApp: When the jenkins build completes and the json files have been published the plugin will also publish the
 webapp itself, with the containing json files.
 
-TODO:
-Consuming and writing large text currently causes issues.  The SQL logs are typically above 35 MB in size and the mechanism
-    with which files are written need to be redesigned.<br>
-TODO:
+TODO:<br>
+Consuming and writing large text currently causes issues.  The SQL logs are typically above 35 MB in size and the mechanism with which files are written need to be redesigned.<br>
+TODO:<br>
 Completion of WebApp.  The work left for this is minimal, some parsing of the strings needs to be done and simply thrown into a table.<br>
-TODO:
+TODO:<br>
 Fixing a bug where plugin configs do not persist on reopening the job config<br>
-TODO:
-> Implementing the reading of the webapp and publishing of the webapp through the sqlparser class<br>
-TODO:
-> Integration of SQLParser class within the Query Parser plugin<br>
+TODO:<br>
+Implementing the reading of the webapp and publishing of the webapp through the sqlparser class<br>
+TODO:<br>
+Integration of SQLParser class within the Query Parser plugin<br>
 
