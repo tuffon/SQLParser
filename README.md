@@ -18,8 +18,12 @@ webapp itself, with the containing json files.
 TODO:
 > Consuming and writing large text currently causes issues.  The SQL logs are typically above 35 MB in size and the mechanism
     with which files are written need to be redesigned.
+TODO:
 > Completion of WebApp.  The work left for this is minimal, some parsing of the strings needs to be done and simply thrown into a table.
+TODO:
 > Fixing a bug where plugin configs do not persist on reopening the job config
+TODO:
 > Implementing the reading of the webapp and publishing of the webapp through the sqlparser class
+TODO:
 > Integration of SQLParser class within the Query Parser plugin
 
